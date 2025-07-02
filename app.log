@@ -1,0 +1,315 @@
+[INFO] 2025-07-01 10:04:38 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 10:04:38 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 10:04:38 |  * Restarting with stat
+[WARNING] 2025-07-01 10:04:38 |  * Debugger is active!
+[INFO] 2025-07-01 10:04:38 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 10:06:18 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 10:06:18 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 10:06:18 |  * Restarting with stat
+[WARNING] 2025-07-01 10:06:19 |  * Debugger is active!
+[INFO] 2025-07-01 10:06:19 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 10:08:01 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 10:08:01 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 10:08:01 |  * Restarting with stat
+[WARNING] 2025-07-01 10:08:01 |  * Debugger is active!
+[INFO] 2025-07-01 10:08:01 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 10:21:47 | 127.0.0.1 - - [01/Jul/2025 10:21:47] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 10:22:11 | 127.0.0.1 - - [01/Jul/2025 10:22:11] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 10:22:33 | 127.0.0.1 - - [01/Jul/2025 10:22:33] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 10:23:30 | 127.0.0.1 - - [01/Jul/2025 10:23:30] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 10:33:48 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 10:33:48 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 10:33:48 |  * Restarting with stat
+[WARNING] 2025-07-01 10:33:49 |  * Debugger is active!
+[INFO] 2025-07-01 10:33:49 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 10:33:59 | 127.0.0.1 - - [01/Jul/2025 10:33:59] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 10:37:26 | 127.0.0.1 - - [01/Jul/2025 10:37:26] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 10:38:01 | 127.0.0.1 - - [01/Jul/2025 10:38:01] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 10:39:13 | 127.0.0.1 - - [01/Jul/2025 10:39:13] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 10:39:51 | 127.0.0.1 - - [01/Jul/2025 10:39:51] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 10:40:20 | 127.0.0.1 - - [01/Jul/2025 10:40:20] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 10:43:30 | 127.0.0.1 - - [01/Jul/2025 10:43:30] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 10:43:49 | 127.0.0.1 - - [01/Jul/2025 10:43:49] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 10:46:58 | 127.0.0.1 - - [01/Jul/2025 10:46:58] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 13:26:01 | 127.0.0.1 - - [01/Jul/2025 13:26:01] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 13:26:45 | 127.0.0.1 - - [01/Jul/2025 13:26:45] "[31m[1mGET //login?email=admin@example.com&password=admin123 HTTP/1.1[0m" 405 -
+[INFO] 2025-07-01 13:26:54 | 127.0.0.1 - - [01/Jul/2025 13:26:54] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 13:26:57 | 127.0.0.1 - - [01/Jul/2025 13:26:57] "[31m[1mPOST /login HTTP/1.1[0m" 415 -
+[INFO] 2025-07-01 13:27:35 | 127.0.0.1 - - [01/Jul/2025 13:27:35] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+[INFO] 2025-07-01 13:27:35 | 127.0.0.1 - - [01/Jul/2025 13:27:35] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[INFO] 2025-07-01 13:40:24 | 127.0.0.1 - - [01/Jul/2025 13:40:24] "GET /?Content-Type=application/json HTTP/1.1" 200 -
+[INFO] 2025-07-01 13:46:41 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 13:46:41 |  * Restarting with stat
+[WARNING] 2025-07-01 13:46:42 |  * Debugger is active!
+[INFO] 2025-07-01 13:46:42 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 13:46:43 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 13:46:43 |  * Restarting with stat
+[WARNING] 2025-07-01 13:46:43 |  * Debugger is active!
+[INFO] 2025-07-01 13:46:43 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 13:46:50 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 13:46:50 |  * Restarting with stat
+[WARNING] 2025-07-01 13:46:50 |  * Debugger is active!
+[INFO] 2025-07-01 13:46:50 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 13:48:14 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 13:48:14 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 13:48:14 |  * Restarting with stat
+[WARNING] 2025-07-01 13:48:14 |  * Debugger is active!
+[INFO] 2025-07-01 13:48:14 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 13:48:20 | 127.0.0.1 - - [01/Jul/2025 13:48:20] "GET /?Content-Type=application/json HTTP/1.1" 200 -
+[WARNING] 2025-07-01 13:52:27 | Unauthorized access attempt to /protected | IP=127.0.0.1
+[INFO] 2025-07-01 13:52:27 | 127.0.0.1 - - [01/Jul/2025 13:52:27] "[31m[1mGET /protected HTTP/1.1[0m" 401 -
+[INFO] 2025-07-01 13:56:55 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 13:56:55 |  * Restarting with stat
+[WARNING] 2025-07-01 13:56:55 |  * Debugger is active!
+[INFO] 2025-07-01 13:56:55 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 13:56:59 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 13:57:00 |  * Restarting with stat
+[WARNING] 2025-07-01 13:57:00 |  * Debugger is active!
+[INFO] 2025-07-01 13:57:00 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 13:57:05 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 13:57:05 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 13:57:05 |  * Restarting with stat
+[WARNING] 2025-07-01 13:57:05 |  * Debugger is active!
+[INFO] 2025-07-01 13:57:05 |  * Debugger PIN: 127-351-177
+[WARNING] 2025-07-01 13:57:10 | Unauthorized access attempt to /protected | IP=127.0.0.1
+[INFO] 2025-07-01 13:57:10 | 127.0.0.1 - - [01/Jul/2025 13:57:10] "[31m[1mGET /protected HTTP/1.1[0m" 401 -
+[INFO] 2025-07-01 13:57:47 | 127.0.0.1 - - [01/Jul/2025 13:57:47] "GET /?Content-Type=application/json HTTP/1.1" 200 -
+[INFO] 2025-07-01 13:59:27 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 13:59:27 |  * Restarting with stat
+[WARNING] 2025-07-01 13:59:28 |  * Debugger is active!
+[INFO] 2025-07-01 13:59:28 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 13:59:29 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 13:59:29 |  * Restarting with stat
+[WARNING] 2025-07-01 13:59:29 |  * Debugger is active!
+[INFO] 2025-07-01 13:59:29 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 13:59:40 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 13:59:40 |  * Restarting with stat
+[WARNING] 2025-07-01 13:59:40 |  * Debugger is active!
+[INFO] 2025-07-01 13:59:40 |  * Debugger PIN: 127-351-177
+[WARNING] 2025-07-01 14:01:11 | Unauthorized access attempt to /protected | IP=127.0.0.1
+[INFO] 2025-07-01 14:01:11 | 127.0.0.1 - - [01/Jul/2025 14:01:11] "[31m[1mGET /protected HTTP/1.1[0m" 401 -
+[WARNING] 2025-07-01 14:01:42 | Unauthorized access attempt to /protected | IP=127.0.0.1
+[INFO] 2025-07-01 14:01:42 | 127.0.0.1 - - [01/Jul/2025 14:01:42] "[31m[1mGET /protected HTTP/1.1[0m" 401 -
+[INFO] 2025-07-01 14:26:58 | 127.0.0.1 - - [01/Jul/2025 14:26:58] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+[INFO] 2025-07-01 14:27:17 | 127.0.0.1 - - [01/Jul/2025 14:27:17] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+[INFO] 2025-07-01 14:30:28 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 14:30:28 |  * Restarting with stat
+[WARNING] 2025-07-01 14:30:29 |  * Debugger is active!
+[INFO] 2025-07-01 14:30:29 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:30:41 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 14:30:41 |  * Restarting with stat
+[WARNING] 2025-07-01 14:30:42 |  * Debugger is active!
+[INFO] 2025-07-01 14:30:42 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:30:52 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 14:30:52 |  * Restarting with stat
+[WARNING] 2025-07-01 14:30:53 |  * Debugger is active!
+[INFO] 2025-07-01 14:30:53 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:36:08 | 127.0.0.1 - - [01/Jul/2025 14:36:08] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+[INFO] 2025-07-01 14:36:18 | 127.0.0.1 - - [01/Jul/2025 14:36:18] "[31m[1mGET /login HTTP/1.1[0m" 405 -
+[INFO] 2025-07-01 14:39:14 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 14:39:14 |  * Restarting with stat
+[WARNING] 2025-07-01 14:39:15 |  * Debugger is active!
+[INFO] 2025-07-01 14:39:15 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:39:16 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 14:39:16 |  * Restarting with stat
+[WARNING] 2025-07-01 14:39:16 |  * Debugger is active!
+[INFO] 2025-07-01 14:39:16 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:39:22 |  * Detected change in 'D:\\auth0-flask-demo\\app4.py', reloading
+[INFO] 2025-07-01 14:39:22 |  * Restarting with stat
+[WARNING] 2025-07-01 14:39:22 |  * Debugger is active!
+[INFO] 2025-07-01 14:39:22 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:39:29 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 14:39:29 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 14:39:29 |  * Restarting with stat
+[WARNING] 2025-07-01 14:39:30 |  * Debugger is active!
+[INFO] 2025-07-01 14:39:30 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:39:36 | 127.0.0.1 - - [01/Jul/2025 14:39:36] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:40:25 | 127.0.0.1 - - [01/Jul/2025 14:40:25] "[35m[1mPOST /login HTTP/1.1[0m" 500 -
+[INFO] 2025-07-01 14:40:25 | 127.0.0.1 - - [01/Jul/2025 14:40:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[INFO] 2025-07-01 14:40:25 | 127.0.0.1 - - [01/Jul/2025 14:40:25] "[36mGET /login?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[INFO] 2025-07-01 14:40:25 | 127.0.0.1 - - [01/Jul/2025 14:40:25] "GET /login?__debugger__=yes&cmd=resource&f=console.png&s=7mw7onLrmnRZ5ygxKk0A HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:40:26 | 127.0.0.1 - - [01/Jul/2025 14:40:26] "[36mGET /login?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+[INFO] 2025-07-01 14:42:12 |  * Detected change in 'D:\\auth0-flask-demo\\app5.py', reloading
+[INFO] 2025-07-01 14:42:12 |  * Restarting with stat
+[WARNING] 2025-07-01 14:42:13 |  * Debugger is active!
+[INFO] 2025-07-01 14:42:13 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:42:17 |  * Detected change in 'D:\\auth0-flask-demo\\app5.py', reloading
+[INFO] 2025-07-01 14:42:17 |  * Restarting with stat
+[WARNING] 2025-07-01 14:42:17 |  * Debugger is active!
+[INFO] 2025-07-01 14:42:17 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:42:30 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 14:42:30 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 14:42:30 |  * Restarting with stat
+[WARNING] 2025-07-01 14:42:30 |  * Debugger is active!
+[INFO] 2025-07-01 14:42:30 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:42:38 | Login successful | user_id=1 | email=admin@example.com
+[INFO] 2025-07-01 14:42:38 | 127.0.0.1 - - [01/Jul/2025 14:42:38] "[32mPOST /login HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:42:38 | 127.0.0.1 - - [01/Jul/2025 14:42:38] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:42:49 | Accessed /protected | user_id=1 | email=admin@example.com
+[INFO] 2025-07-01 14:42:49 | 127.0.0.1 - - [01/Jul/2025 14:42:49] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:42:51 | 127.0.0.1 - - [01/Jul/2025 14:42:51] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:42:53 | User logged out | email=admin@example.com
+[INFO] 2025-07-01 14:42:53 | 127.0.0.1 - - [01/Jul/2025 14:42:53] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:42:53 | 127.0.0.1 - - [01/Jul/2025 14:42:53] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:43:33 | 127.0.0.1 - - [01/Jul/2025 14:43:33] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:43:36 | 127.0.0.1 - - [01/Jul/2025 14:43:36] "GET /login HTTP/1.1" 200 -
+[WARNING] 2025-07-01 14:43:52 | Unauthorized access attempt to /protected | IP=127.0.0.1
+[INFO] 2025-07-01 14:43:52 | 127.0.0.1 - - [01/Jul/2025 14:43:52] "[32mGET /protected HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:43:52 | 127.0.0.1 - - [01/Jul/2025 14:43:52] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:43:57 | User logged out | email=None
+[INFO] 2025-07-01 14:43:57 | 127.0.0.1 - - [01/Jul/2025 14:43:57] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:43:57 | 127.0.0.1 - - [01/Jul/2025 14:43:57] "GET /login HTTP/1.1" 200 -
+[WARNING] 2025-07-01 14:44:05 | Failed login attempt | email=123
+[INFO] 2025-07-01 14:44:05 | 127.0.0.1 - - [01/Jul/2025 14:44:05] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
+[INFO] 2025-07-01 14:52:14 |  * Detected change in 'D:\\auth0-flask-demo\\app5.py', reloading
+[INFO] 2025-07-01 14:52:14 |  * Restarting with stat
+[INFO] 2025-07-01 14:54:08 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 14:54:08 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 14:54:08 |  * Restarting with stat
+[WARNING] 2025-07-01 14:54:08 |  * Debugger is active!
+[INFO] 2025-07-01 14:54:08 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 14:54:13 | 127.0.0.1 - - [01/Jul/2025 14:54:13] "[32mGET / HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:54:14 | 127.0.0.1 - - [01/Jul/2025 14:54:14] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:54:42 | Login successful | user_id=1 | email=admin@example.com
+[INFO] 2025-07-01 14:54:42 | 127.0.0.1 - - [01/Jul/2025 14:54:42] "[32mPOST /login HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:54:42 | 127.0.0.1 - - [01/Jul/2025 14:54:42] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:54:53 | Accessed /protected | user_id=1 | email=admin@example.com
+[INFO] 2025-07-01 14:54:53 | 127.0.0.1 - - [01/Jul/2025 14:54:53] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:55:03 | 127.0.0.1 - - [01/Jul/2025 14:55:03] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:55:05 | User logged out | email=admin@example.com
+[INFO] 2025-07-01 14:55:05 | 127.0.0.1 - - [01/Jul/2025 14:55:05] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:55:05 | 127.0.0.1 - - [01/Jul/2025 14:55:05] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:55:26 | Login successful | user_id=2 | email=john.doe@example.com
+[INFO] 2025-07-01 14:55:26 | 127.0.0.1 - - [01/Jul/2025 14:55:26] "[32mPOST /login HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:55:26 | 127.0.0.1 - - [01/Jul/2025 14:55:26] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:55:32 | Accessed /protected | user_id=2 | email=john.doe@example.com
+[INFO] 2025-07-01 14:55:32 | 127.0.0.1 - - [01/Jul/2025 14:55:32] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:56:29 | Login successful | user_id=2 | email=john.doe@example.com
+[INFO] 2025-07-01 14:56:29 | 127.0.0.1 - - [01/Jul/2025 14:56:29] "[32mPOST /login HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:56:29 | 127.0.0.1 - - [01/Jul/2025 14:56:29] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:57:21 | Accessed /protected | user_id=2 | email=john.doe@example.com
+[INFO] 2025-07-01 14:57:21 | 127.0.0.1 - - [01/Jul/2025 14:57:21] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:58:33 | 127.0.0.1 - - [01/Jul/2025 14:58:33] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 14:58:55 | User logged out | email=john.doe@example.com
+[INFO] 2025-07-01 14:58:55 | 127.0.0.1 - - [01/Jul/2025 14:58:55] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 14:58:55 | 127.0.0.1 - - [01/Jul/2025 14:58:55] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 15:15:45 |  * Detected change in 'D:\\auth0-flask-demo\\app6.py', reloading
+[INFO] 2025-07-01 15:15:45 |  * Restarting with stat
+[WARNING] 2025-07-01 15:15:46 |  * Debugger is active!
+[INFO] 2025-07-01 15:15:46 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 15:17:57 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 15:17:57 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 15:17:57 |  * Restarting with stat
+[WARNING] 2025-07-01 15:17:57 |  * Debugger is active!
+[INFO] 2025-07-01 15:17:57 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 15:18:07 | 127.0.0.1 - - [01/Jul/2025 15:18:07] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 15:18:09 | 127.0.0.1 - - [01/Jul/2025 15:18:09] "[32mGET / HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 15:18:14 | 127.0.0.1 - - [01/Jul/2025 15:18:14] "[32mGET / HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 15:18:14 | 127.0.0.1 - - [01/Jul/2025 15:18:14] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 15:18:48 | Login | user_id=1 | email=admin@example.com | time=2025-07-01 19:18:48.990975
+[INFO] 2025-07-01 15:18:48 | 127.0.0.1 - - [01/Jul/2025 15:18:48] "[32mPOST /login HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 15:18:49 | 127.0.0.1 - - [01/Jul/2025 15:18:49] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 15:19:33 | Accessed /protected | user_id=1 | email=admin@example.com | time=2025-07-01 19:19:33.588503
+[INFO] 2025-07-01 15:19:33 | 127.0.0.1 - - [01/Jul/2025 15:19:33] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-01 15:19:38 | 127.0.0.1 - - [01/Jul/2025 15:19:38] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:50:55 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-01 23:50:55 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-01 23:50:55 |  * Restarting with stat
+[WARNING] 2025-07-01 23:50:55 |  * Debugger is active!
+[INFO] 2025-07-01 23:50:55 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-01 23:51:02 | 127.0.0.1 - - [01/Jul/2025 23:51:02] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:51:06 | Accessed /protected | user_id=1 | email=admin@example.com | time=2025-07-02 03:51:06.860013
+[INFO] 2025-07-01 23:51:06 | 127.0.0.1 - - [01/Jul/2025 23:51:06] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:51:16 | 127.0.0.1 - - [01/Jul/2025 23:51:16] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:51:19 | Accessed /protected | user_id=1 | email=admin@example.com | time=2025-07-02 03:51:19.806573
+[INFO] 2025-07-01 23:51:19 | 127.0.0.1 - - [01/Jul/2025 23:51:19] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:51:22 | 127.0.0.1 - - [01/Jul/2025 23:51:22] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:51:23 | Logout | email=admin@example.com | time=2025-07-02 03:51:23.906990 | IP=127.0.0.1
+[INFO] 2025-07-01 23:51:23 | 127.0.0.1 - - [01/Jul/2025 23:51:23] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 23:51:23 | 127.0.0.1 - - [01/Jul/2025 23:51:23] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:53:20 | 127.0.0.1 - - [01/Jul/2025 23:53:20] "[32mGET / HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 23:53:20 | 127.0.0.1 - - [01/Jul/2025 23:53:20] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:54:16 | 127.0.0.1 - - [01/Jul/2025 23:54:16] "[32mGET / HTTP/1.1[0m" 302 -
+[INFO] 2025-07-01 23:54:16 | 127.0.0.1 - - [01/Jul/2025 23:54:16] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:54:39 | 127.0.0.1 - - [01/Jul/2025 23:54:39] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-01 23:58:12 |  * Detected change in 'D:\\auth0-flask-demo\\app7.py', reloading
+[INFO] 2025-07-01 23:58:12 |  * Restarting with stat
+[INFO] 2025-07-02 00:03:09 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-02 00:03:09 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-02 00:03:09 |  * Restarting with stat
+[WARNING] 2025-07-02 00:03:09 |  * Debugger is active!
+[INFO] 2025-07-02 00:03:09 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-02 00:03:17 | 127.0.0.1 - - [02/Jul/2025 00:03:17] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:03:41 | Login | user_id=1 | email=admin@example.com | time=2025-07-02 04:03:41.629895+00:00
+[INFO] 2025-07-02 00:03:41 | 127.0.0.1 - - [02/Jul/2025 00:03:41] "[32mPOST /login HTTP/1.1[0m" 302 -
+[INFO] 2025-07-02 00:03:41 | 127.0.0.1 - - [02/Jul/2025 00:03:41] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:03:49 | Accessed /protected | user_id=1 | email=admin@example.com | time=2025-07-02 04:03:49.464755+00:00
+[INFO] 2025-07-02 00:03:49 | 127.0.0.1 - - [02/Jul/2025 00:03:49] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:03:53 | 127.0.0.1 - - [02/Jul/2025 00:03:53] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:04:23 |  * Detected change in 'D:\\auth0-flask-demo\\app7.py', reloading
+[INFO] 2025-07-02 00:04:23 |  * Restarting with stat
+[WARNING] 2025-07-02 00:04:24 |  * Debugger is active!
+[INFO] 2025-07-02 00:04:24 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-02 00:04:30 |  * Detected change in 'D:\\auth0-flask-demo\\app7.py', reloading
+[INFO] 2025-07-02 00:04:30 |  * Restarting with stat
+[WARNING] 2025-07-02 00:04:30 |  * Debugger is active!
+[INFO] 2025-07-02 00:04:30 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-02 00:04:33 | 127.0.0.1 - - [02/Jul/2025 00:04:33] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:05:11 | Accessed /protected | user_id=1 | email=admin@example.com | time=2025-07-02 04:05:11.510826+00:00
+[INFO] 2025-07-02 00:05:11 | 127.0.0.1 - - [02/Jul/2025 00:05:11] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:07:33 |  * Detected change in 'D:\\auth0-flask-demo\\app7.py', reloading
+[INFO] 2025-07-02 00:07:33 |  * Restarting with stat
+[WARNING] 2025-07-02 00:07:33 |  * Debugger is active!
+[INFO] 2025-07-02 00:07:33 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-02 00:07:39 |  * Detected change in 'D:\\auth0-flask-demo\\app7.py', reloading
+[INFO] 2025-07-02 00:07:39 |  * Restarting with stat
+[WARNING] 2025-07-02 00:07:39 |  * Debugger is active!
+[INFO] 2025-07-02 00:07:39 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-02 00:08:01 |  * Detected change in 'D:\\auth0-flask-demo\\app7.py', reloading
+[INFO] 2025-07-02 00:08:02 |  * Restarting with stat
+[WARNING] 2025-07-02 00:08:02 |  * Debugger is active!
+[INFO] 2025-07-02 00:08:02 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-02 00:08:07 |  * Detected change in 'D:\\auth0-flask-demo\\app7.py', reloading
+[INFO] 2025-07-02 00:08:07 |  * Restarting with stat
+[WARNING] 2025-07-02 00:08:08 |  * Debugger is active!
+[INFO] 2025-07-02 00:08:08 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-02 00:08:13 | [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on http://127.0.0.1:5000
+[INFO] 2025-07-02 00:08:13 | [33mPress CTRL+C to quit[0m
+[INFO] 2025-07-02 00:08:13 |  * Restarting with stat
+[WARNING] 2025-07-02 00:08:13 |  * Debugger is active!
+[INFO] 2025-07-02 00:08:13 |  * Debugger PIN: 127-351-177
+[INFO] 2025-07-02 00:08:18 | Accessed /protected | user_id=1 | email=admin@example.com | time=2025-07-02 04:08:18.994130+00:00
+[INFO] 2025-07-02 00:08:18 | 127.0.0.1 - - [02/Jul/2025 00:08:18] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:08:25 | 127.0.0.1 - - [02/Jul/2025 00:08:25] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:08:30 | Accessed /protected | user_id=1 | email=admin@example.com | time=2025-07-02 04:08:30.444715+00:00
+[INFO] 2025-07-02 00:08:30 | 127.0.0.1 - - [02/Jul/2025 00:08:30] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:11:06 | Logout | email=admin@example.com | time=2025-07-02 04:11:06.517249+00:00 | IP=127.0.0.1
+[INFO] 2025-07-02 00:11:06 | 127.0.0.1 - - [02/Jul/2025 00:11:06] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[INFO] 2025-07-02 00:11:06 | 127.0.0.1 - - [02/Jul/2025 00:11:06] "GET /login HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:12:19 | Login | user_id=1 | email=admin@example.com | time=2025-07-02 04:12:19.370928+00:00
+[INFO] 2025-07-02 00:12:19 | 127.0.0.1 - - [02/Jul/2025 00:12:19] "[32mPOST /login HTTP/1.1[0m" 302 -
+[INFO] 2025-07-02 00:12:19 | 127.0.0.1 - - [02/Jul/2025 00:12:19] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:12:56 | Accessed /protected | user_id=1 | email=admin@example.com | time=2025-07-02 04:12:56.689368+00:00
+[INFO] 2025-07-02 00:12:56 | 127.0.0.1 - - [02/Jul/2025 00:12:56] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:24:05 | 127.0.0.1 - - [02/Jul/2025 00:24:05] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:24:12 | Accessed /protected | user_id=1 | email=admin@example.com | time=2025-07-02 04:24:12.349450+00:00
+[INFO] 2025-07-02 00:24:12 | 127.0.0.1 - - [02/Jul/2025 00:24:12] "GET /protected HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:24:13 | 127.0.0.1 - - [02/Jul/2025 00:24:13] "GET / HTTP/1.1" 200 -
+[INFO] 2025-07-02 00:24:16 | Logout | email=admin@example.com | time=2025-07-02 04:24:16.792683+00:00 | IP=127.0.0.1
+[INFO] 2025-07-02 00:24:16 | 127.0.0.1 - - [02/Jul/2025 00:24:16] "[32mPOST /logout HTTP/1.1[0m" 302 -
+[INFO] 2025-07-02 00:24:16 | 127.0.0.1 - - [02/Jul/2025 00:24:16] "GET /login HTTP/1.1" 200 -
+[WARNING] 2025-07-02 00:24:23 | Failed login attempt | email=123 | time=2025-07-02 04:24:23.660971+00:00 | IP=127.0.0.1
+[INFO] 2025-07-02 00:24:23 | 127.0.0.1 - - [02/Jul/2025 00:24:23] "[31m[1mPOST /login HTTP/1.1[0m" 401 -
