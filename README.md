@@ -1,10 +1,10 @@
 # Assignment 1: Securing and Monitoring an Authenticated Flask App
 ---
----
 🎥 Demo Video
 
 YouTube Demo Link - 5 Minute Walkthrough
 https://youtu.be/WROOqldlzZM
+
 
 ## Part 1: App Enhancements & Deployment
 
@@ -254,7 +254,8 @@ AppServiceConsoleLogs
 
    * **Evaluation frequency**: 5 minutes
    * **Lookback period**: 15 minutes
-
-```
+   * 
 <img width="1133" alt="image" src="https://github.com/user-attachments/assets/94b20d3a-dee9-4a24-9f4d-6017c647198a" />
+```
+
 
