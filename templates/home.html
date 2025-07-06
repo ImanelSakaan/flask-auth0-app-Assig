@@ -1,64 +1,16 @@
-<!-- templates/home.html -->
 <!DOCTYPE html>
 <html>
 <head>
-    <title>Assignment 1: Securing and Monitoring an Authenticated Flask App</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        .container { max-width: 600px; margin: 0 auto; }
-        .btn { padding: 10px 20px; margin: 10px; text-decoration: none; 
-               background: #007bff; color: white; border-radius: 5px; }
-        .btn:hover { background: #0056b3; }
-        .user-info { background: #f8f9fa; padding: 20px; border-radius: 5px; margin: 20px 0; }
-    </style>
+    <title>Home</title>
 </head>
 <body>
-    <div class="container">
-        <h1>Assignment 1: Securing and Monitoring an Authenticated Flask App</h1>
-        
-        {% if session %}
-            <div class="user-info">
-                <h3>Welcome, {{ session.userinfo.name }}!</h3>
-                <p>Email: {{ session.userinfo.email }}</p>
-                <p>User ID: {{ session.userinfo.sub }}</p>
-            </div>
-            <a href="/protected" class="btn">Access Protected Route</a>
-            <a href="/logout" class="btn" style="background: #dc3545;">Logout</a>
-        {% else %}
-            <p>You are not logged in.</p>
-            <a href="/login" class="btn">Login with Auth0</a>
-        {% endif %}
-    </div>
-</body>
-</html>
-
-<!-- templates/protected.html -->
-<!DOCTYPE html>
-<html>
-<head>
-    <title>Protected Area</title>
-    <style>
-        body { font-family: Arial, sans-serif; margin: 40px; }
-        .container { max-width: 600px; margin: 0 auto; }
-        .btn { padding: 10px 20px; margin: 10px; text-decoration: none; 
-               background: #007bff; color: white; border-radius: 5px; }
-        .protected-content { background: #d4edda; padding: 20px; 
-                           border-radius: 5px; border: 1px solid #c3e6cb; }
-    </style>
-</head>
-<body>
-    <div class="container">
-        <h1>Protected Area</h1>
-        
-        <div class="protected-content">
-            <h3>🔒 This is protected content!</h3>
-            <p>Only authenticated users can see this page.</p>
-            <p>Welcome, {{ user.userinfo.name }}!</p>
-            <p>Your access has been logged for monitoring purposes.</p>
-        </div>
-        
-        <a href="/" class="btn">Back to Home</a>
-        <a href="/protected" class="btn" style="background: #28a745;">Refresh This Page</a>
-    </div>
+    {% if user %}
+        <h2>Welcome, {{ user.name }}!</h2>
+        <p><a href="/protected">Go to protected page</a></p>
+        <p><a href="/logout">Logout</a></p>
+    {% else %}
+        <h2>Welcome! Please log in.</h2>
+        <p><a href="/login">Login with Auth0</a></p>
+    {% endif %}
 </body>
 </html>

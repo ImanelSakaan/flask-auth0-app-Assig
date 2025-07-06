@@ -25,9 +25,13 @@ users = {
 @app.route('/')
 def home():
     if 'user_id' in session:
+        current_time = datetime.now(timezone.utc)
         return f'''
-        <h2>Welcome to app7, {session["email"]}!</h2>
-        <p><a href="/protected">Go to protected page</a></p>
+        <h2 style="color: green; font-weight: bold; font-size: 22px">Welcome to Assignment 1: Securing and Monitoring an Authenticated Flask App</h2>
+        <h2 style="color: blue; font-weight: bold; font-size: 20px"> Active User ID:   {session["user_id"]}</h2>
+        <h2 style="color: blue; font-weight: bold; font-size: 20px"> Active User Email:   {session["email"]}</h2>
+        <h2 style="color: blue; font-weight: bold; font-size: 20px"> Current UTC time: {current_time}</h2>
+        <p style="color: red; font-size: 24px"><a href="/protected">Go to protected page</a></p>
         <form method="post" action="/logout">
             <button type="submit">Logout</button>
         </form>
@@ -56,10 +60,14 @@ def login():
         app.logger.warning(
             f"Failed login attempt | email={email} | time={datetime.now(timezone.utc)} | IP={request.remote_addr}"
         )
-        return 'Invalid credentials', 401
+        #return 'Invalid credentials', 401
+        return (
+            '<h2 style="color: red; font-weight: bold; font-size: 28px">Invalid credentials</h2>',
+            401,
+)
 
     return '''
-    <h2>Login</h2>
+    <h2 style="color: blue; font-weight: bold; font-size: 28px">Login</h2>
     <form method="post" action="/login">
         <input type="text" name="email" placeholder="Email" required />
         <input type="password" name="password" placeholder="Password" required />
@@ -77,6 +85,7 @@ def logout():
     )
     return redirect('/login')
 
+
 # --- Protected Route ---
 @app.route('/protected')
 def protected():
@@ -86,9 +95,9 @@ def protected():
             f"Accessed /protected | user_id={session['user_id']} | email={session['email']} | time={current_time}"
         )
         return f'''
-        <h2>Protected Content</h2>
-        <p>Hello {session["email"]}, this is a protected page.</p>
-        <p>Current UTC time: {current_time}</p>
+        <h2 style="color: green; font-size: 32px">Protected Content</h2>
+        <p style="color: blue; font-weight: bold; font-size: 20px">Hello {session["email"]}, this is a protected page.</p>
+        <p style="color: blue; font-size: 18px">Current UTC time: {current_time}</p>
         <a href="/">Go back home</a>
         '''
     

@@ -1,0 +1,8 @@
+### Valid login
+GET http://localhost:5000/login
+
+### Access protected route (valid)
+GET http://localhost:5000/protected
+
+### Invalid access (no session)
+GET http://localhost:5000/protected
