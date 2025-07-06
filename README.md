@@ -1,5 +1,10 @@
 # Assignment 1: Securing and Monitoring an Authenticated Flask App
 ---
+---
+🎥 Demo Video
+
+YouTube Demo Link - 5 Minute Walkthrough
+https://youtu.be/WROOqldlzZM
 
 ## Part 1: App Enhancements & Deployment
 
@@ -134,36 +139,66 @@ if __name__ == '__main__':
 ```bash
 python app7.py
 ```
-![image](https://github.com/user-attachments/assets/224d887a-bde6-42f3-9d8b-723da3be7a8e)
 
-![image](https://github.com/user-attachments/assets/a94c093b-f89f-47ea-8803-85dc7e41980b)
+<img src="https://github.com/user-attachments/assets/224d887a-bde6-42f3-9d8b-723da3be7a8e" width="50%" />
 
-![image](https://github.com/user-attachments/assets/bea4393a-a454-40a7-afc4-46aa497d2d84)
+<img src="https://github.com/user-attachments/assets/a94c093b-f89f-47ea-8803-85dc7e41980b)" width="50%" />
 
-![image](https://github.com/user-attachments/assets/29f38b1c-d42c-4834-b5bd-c286b5367bfc)
+<img src="https://github.com/user-attachments/assets/bea4393a-a454-40a7-afc4-46aa497d2d84" width="50%" />
+
+
+<img src="https://github.com/user-attachments/assets/29f38b1c-d42c-4834-b5bd-c286b5367bfc" width="50%" />
 
 ---
 
-### 2. Deploy to Azure App Service
 
-1. Reuse Azure setup from Lab 2
-2. **Enable logging**:
+## 2. Deploy to Azure App Service
 
-In **Azure Portal** → Your App Service → **Monitoring** → **Diagnostic settings**:
+### 2.1 Reuse Azure setup from Lab 2
 
-* Enable `AppServiceConsoleLogs`
-* Send to **Log Analytics workspace**
+#### 1. In VS Code terminal:
 
-3. **Configure environment variables** in Azure:
+```bash
+az login
+az group create --name flask-lab-rg --location canadacentral
+az appservice plan create --name flaskPlan --resource-group flask-lab-rg --sku FREE
+az webapp create --resource-group flask-lab-rg --plan flaskPlan --name flask-lab-iman123 --runtime "PYTHON|3.10" --deployment-local-git
+````
 
-In **Application Settings** → Add the following:
-
+This created a **Git URL** like:
 ```
-AUTH0_CLIENT_ID
-AUTH0_DOMAIN
-AUTH0_CLIENT_SECRET
-SECRET_KEY
+https://flask-lab-iman123.scm.azurewebsites.net:443/flask-lab-iman123.git
+https://flask-lab-iman123.scm.azurewebsites.net/
 ```
+
+### 2. Set deployment remote and push:
+
+#### 1. Add remote:
+
+```bash
+git remote add azure https://iman@flask-lab-iman123.scm.azurewebsites.net/flask-lab-iman123.git
+```
+
+This tells Git:
+> “Add a new remote repository called `azure` pointing to the Azure Web App Git URL.”
+
+---
+#### 2. Push code to Azure:
+
+```bash
+git push azure master
+```
+
+This tells Git:
+> “Push my local code (from the `master` branch) to the `azure` remote.”
+
+---
+
+### 🔗 Your app becomes live at:
+```
+https://flask-lab-iman123.scm.azurewebsites.net/
+```
+![image](https://github.com/user-attachments/assets/2288d79d-fd48-4986-939a-0af8334f2433)
 
 ---
 
@@ -197,6 +232,7 @@ AppServiceConsoleLogs
 | where AccessCount > 10
 | project user_id, TimeGenerated, AccessCount
 ```
+<img width="587" alt="image" src="https://github.com/user-attachments/assets/f7d3ef4b-45c1-4866-99cc-76993762ff52" />
 
 ---
 
@@ -220,6 +256,5 @@ AppServiceConsoleLogs
    * **Lookback period**: 15 minutes
 
 ```
+<img width="1133" alt="image" src="https://github.com/user-attachments/assets/94b20d3a-dee9-4a24-9f4d-6017c647198a" />
 
-Let me know if you want me to save this to a `.md` file or upload it to your repo automatically.
-```
